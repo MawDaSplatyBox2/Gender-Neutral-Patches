@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Zinnia",
+			"Entries": 
+			{
+				"Sat6": "{{i18n:zinniadialogue.Sat6}}",
+			}
+		},
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "Entries": {
+        "gabeFinished": "{{i18n:Alex.gabeFinished}}",
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Clint",
+      "Entries": {
+        "gabrielArrive": "{{i18n:Clint.gabrielArrive_{{Random:{{Range:1,2}}}}}}",
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "Entries": {
+        "gabrielArrive": "{{i18n:Jas.gabrielArrive|Title={{lowercase:{{Random:{{Title}}}}}}}}",
+      },
+    },
+  ]
+}

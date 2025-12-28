@@ -1,0 +1,26 @@
+{
+  "Name": "AGE Gender-Neutral Patch",
+  "Author": "MawDaSplatyBox2",
+  "Version": "0.1.0",
+  "Description": "Patches dialogue from Adventurer's Guild Expanded with gender-neutral edits, using GNMTokens.",
+  "UniqueID": "MawDaSplatyBox2.AGEGNP",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+        "UniqueID": "supert.adventureguildexpanded",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "Hana.GNMTokens",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "Nom0ri.RomRas",
+        "IsRequired": false,
+    }
+  ]
+}
