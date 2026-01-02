@@ -1,0 +1,62 @@
+{
+  "Format": "2.2.0",
+  "ConfigSchema": {
+    "ReplaceGenderedDialogue": {
+      "AllowValues": "true, false",
+      "Default": false,
+    },
+  },
+  "DynamicTokens": [
+    {
+      "Name": "GenderNeutral",
+      "Value": ""
+    },
+    {
+      "Name": "GenderNeutral",
+      "Value": ".GN",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GenderNeutral",
+      "Value": ".GN",
+      "When": { "ReplaceGenderedDialogue": true }
+    },
+    //GNMTSingular
+    //GMNTSubjectivePronoun
+    //GNMTSubjectivePronoun
+    //GNMTObjectivePronoun
+    //GNMTPossessivePronoun
+    {
+      "Name": "GNMTTitle",
+      "Value": "oh"
+    },
+    {
+      "Name": "GNMTTitle",
+      "Value": "{{Hana.GNMTokens/Title}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    //GNMTAdjective
+    //GMNTSpouseNoun
+    //GNMTGenericNoun
+    //GNMTAdultAntiquatedNoun
+    //GNMTAdultInformalNoun
+    //GNMTAdultFamilialNoun
+    //GNMTElderAntiquatedNoun
+    //GNMTElderFamilialNoun
+    //GNMTElderInformalNoun
+    //GNMTChildFamilialNoun
+    //GNMTServiceFormalNoun
+    //GNMTTraderNoun
+    //GNMTParentalNoun
+    //GNMTSiblingNoun
+    //GNMTTermOfEndearment
+
+  ],
+  "Changes": [
+    {
+      "LogName": "{{ModId}} GN Dialogue",
+      "Action": "Include",
+      "FromFile": "Data/Dialogue.json"
+    }
+  ]
+}

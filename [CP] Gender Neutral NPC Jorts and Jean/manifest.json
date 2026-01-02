@@ -1,0 +1,22 @@
+{
+  "Name": "Gender-Neutral Jorts and Jean Patch",
+  "Author": "MawDaSplatyBox2",
+  "Version": "0.1.0",
+  "Description": "Patches dialogue from Jorts and Jean with gender-neutral edits, using GNMTokens.",
+  "UniqueID": "MawDaSplatyBox2.MrGingerGNP",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+        "UniqueID": "tiakall.jortsandjean",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "Hana.GNMTokens",
+        "IsRequired": false,
+    }
+  ]
+}

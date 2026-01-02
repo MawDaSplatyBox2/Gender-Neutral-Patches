@@ -1,0 +1,14 @@
+{
+  "Changes": [
+		//Cats resort dialogue
+		{
+      "LogName": "Jorts GI dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/JortsCat", 
+      "Entries": {
+				//vanilla
+				"Resort_Leaving": "{{i18n:JortsCat.Resort_Leaving.{{Random:{{Range:1,3}}}}|Title={{lowercase:{{Random:{{GNMTTitle}}}}}}}}"
+			}
+		}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "config.ReplaceGenderedDialogue.name": "Force Replacer",
+  "config.ReplaceGenderedDialogue.description": "Setting this to true will force this mod to replace with gender-neutral dialogue and events, regardless of whether GNMTokens is installed.",
+
+  // DIALOGUE
+  // all this for one gendered line? sigh...
+  "JortsCat.Resort_Leaving.1": "I'm going to go lay on Jean for a while. I don't think she likes boats much.",
+  "JortsCat.Resort_Leaving.2": "I'm on a boat, {{Title}} farmer!$h",
+  "JortsCat.Resort_Leaving.3": "Oh boy, we get to go up and down again!",
+  
+  // EVENTS
+
+  //none
+}
