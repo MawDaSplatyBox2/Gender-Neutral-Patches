@@ -1,0 +1,27 @@
+{
+  "config.ReplaceGenderedDialogue.name": "Force Replacer",
+  "config.ReplaceGenderedDialogue.description": "Setting this to true will force this mod to replace with gender-neutral dialogue and events, regardless of whether GNMTokens is installed.",
+
+  // DIALOGUE
+  
+  //none
+
+  // EVENTS
+
+  //5 hearts (dialogue is Willy)
+  "5hearts.1": "*muffled* Mrrrrp! $6",
+  "5hearts.2": "*Puffs* Ahoy there @. Have you seen Bosun? Large orange cat?#$b#Pesky beggar's stolen my lunch.",
+  "5hearts.3": "#(point north) He went that way.#He's behind this bush.",
+  "5hearts.4": "Thanks lad, I was really looking forward to it.^Thanks lass, I was really looking forward to it.",
+  "5hearts.4.GN": "Thanks {{ElderAntiquatedNoun}}, I was really looking forward to it.",
+  "5hearts.5": "Mreep mirrp!$4[698]",
+  "5hearts.6": "Aye, I can see your tail, Bosun!",
+  "5hearts.7": "Give it back, you thievin' rascal!",
+  "5hearts.8": "Got it!",
+  "5hearts.9": "Thanks. I appreciate your honesty, lad.^Thanks. I appreciate your honesty, lass.",
+  "5hearts.9.GN": "Thanks. I appreciate your honesty, {{ElderAntiquatedNoun}}.",
+  "5hearts.10": "Mroooow.$2",
+  "5hearts.11": "Well, it's a wee bit chewed, so you might as well have it, Bosun.#$b#Don't go thinkin' you're being rewarded for your crimes though!$a",
+  "5hearts.12": "Say lad, how about you and I grab lunch at the saloon?$1^Say lass, how about you and I grab lunch at the saloon?$1",
+  "5hearts.12.GN": "Say {{ElderAntiquatedNoun}}, how about you and I grab lunch at the saloon?$1",
+}

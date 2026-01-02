@@ -1,0 +1,13 @@
+{
+  "Changes": [
+		{
+			"LogName": "{{ModId}} 5-heart Event",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"50706119/f MisterGinger 1250/w sunny/Hl Tristan_Returns/t 1000 1600": "archaeo/-100 13/MisterGinger 40 16 0 farmer 42 9 2 Willy 26 21 0/skippable/ignoreCollisions farmer/changeSprite MisterGinger Fish/viewport 39 12 true/pause 250/move MisterGinger 0 -7 1/faceDirection farmer 3/pause 250/speak MisterGinger \"{{i18n:5hearts.1}}\"/pause 250/emote farmer 8/speed Willy 4/move Willy 0 -12 0/playSound stairsdown/jump MisterGinger 3/speed MisterGinger 4/move MisterGinger 0 -2 1/faceDirection farmer 0/speed MisterGinger 4/faceDirection farmer 1/move MisterGinger 4 0 3/pause 500/faceDirection farmer 0/speed Willy 4/move Willy 14 0 1/pause 500/faceDirection farmer 3/jump farmer 3/pause 250/speak Willy \"{{i18n:5hearts.2}}\"/question fork1 \"{{i18n:5hearts.3}}\"/fork BehindBush/pause 250/faceDirection Willy 1/pause 250/FaceDirection Willy 2/pause 250/faceDirection Willy 3/pause 250/faceDirection farmer 0/speak Willy \"{{i18n:5hearts.4{{GenderNeutral}}|ElderAntiquatedNoun={{lowercase:{{Random:{{GNMTElderAntiquatedNoun}}}}}}}}\"/pause 250/speed Willy 3/move Willy 0 -4 0/emote farmer 28/faceDirection farmer 0/speed Willy 3/move Willy -2 0 3/speed Willy 3/move Willy 0 -5 0/warp Willy -100 -100/move farmer 0 -1 1/pause 1000/playSound cat/move MisterGinger -1 0 3/pause 250/emote MisterGinger 16/pause 500/showFrame MisterGinger 16/pause 250/showFrame MisterGinger 17/pause 250/showFrame MisterGinger 18/addObject 43 8 698/showFrame MisterGinger 19/changeSprite MisterGinger NoFish/showFrame MisterGinger 8/pause 250/faceDirection MisterGinger 2/pause 500/speak MisterGinger \"{{i18n:5hearts.5}}\"/emote farmer 32/friendship MisterGinger 25/pause 1000/end",
+				"BehindBush": "faceDirection farmer 0/pause 500/speak Willy \"{{i18n:5hearts.6}}\"/faceDirection farmer 3/move Willy 0 -2 1/move Willy 3 0 1/faceDirection farmer 0/shake Willy 350/showFrame Willy 26/speak Willy \"{{i18n:5hearts.7}}\"/pause 500/playSound cat/playSound cat/textAboveHead Willy \"{{i18n:5hearts.8}}\"/changeSprite MisterGinger NoFish/pause 500/move Willy -2 0 2/pause 250/speak Willy \"{{i18n:5hearts.9{{GenderNeutral}}|ElderAntiquatedNoun={{lowercase:{{Random:{{GNMTElderAntiquatedNoun}}}}}}}}\"/playSound leafrustle/pause 250/move MisterGinger -2 0 3/speak MisterGinger \"{{i18n:5hearts.10}}\"/pause 500/faceDirection Willy 1/emote Willy 40/pause 500/speak Willy \"{{i18n:5hearts.11}}\"/addObject 42 8 698/pause 500/playSound cat/speak Willy \"{{i18n:5hearts.12{{GenderNeutral}}|ElderAntiquatedNoun={{lowercase:{{Random:{{GNMTElderAntiquatedNoun}}}}}}}}\"/emote farmer 32/pause 1000/end"
+			}
+		},
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Mr. Ginger Gender-Neutral Patch",
+  "Author": "MawDaSplatyBox2",
+  "Version": "0.1.0",
+  "Description": "Patches dialogue & events from Mr. Ginger with gender-neutral edits, using GNMTokens.",
+  "UniqueID": "MawDaSplatyBox2.MrGingerGNP",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+        "UniqueID": "LemurKat.Mr.Ginger.NPC",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "Hana.GNMTokens",
+        "IsRequired": true,
+    }
+  ]
+}

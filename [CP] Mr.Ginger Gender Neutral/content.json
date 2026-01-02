@@ -1,0 +1,62 @@
+{
+  "Format": "2.2.0",
+  "ConfigSchema": {
+    "ReplaceGenderedDialogue": {
+      "AllowValues": "true, false",
+      "Default": false,
+    },
+  },
+  "DynamicTokens": [
+    {
+      "Name": "GenderNeutral",
+      "Value": ""
+    },
+    {
+      "Name": "GenderNeutral",
+      "Value": ".GN",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GenderNeutral",
+      "Value": ".GN",
+      "When": { "ReplaceGenderedDialogue": true }
+    },
+    //GNMTSingular
+    //GMNTSubjectivePronoun
+    //GNMTSubjectivePronoun
+    //GNMTObjectivePronoun
+    //GNMTPossessivePronoun
+    //GNMTTitle
+    //GNMTAdjective
+    //GMNTSpouseNoun
+    //GNMTGenericNoun
+    //GNMTAdultAntiquatedNoun
+    //GNMTAdultInformalNoun
+    //GNMTAdultFamilialNoun
+    {
+      "Name": "GNMTElderAntiquatedNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTElderAntiquatedNoun",
+      "Value": "{{Hana.GNMTokens/ElderAntiquatedNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    //GNMTElderFamilialNoun
+    //GNMTElderInformalNoun
+    //GNMTChildFamilialNoun
+    //GNMTServiceFormalNoun
+    //GNMTTraderNoun
+    //GNMTParentalNoun
+    //GNMTSiblingNoun
+    //GNMTTermOfEndearment
+
+  ],
+  "Changes": [
+    {
+      "LogName": "{{ModId}} GN Events",
+      "Action": "Include",
+      "FromFile": "Data/Events.json"
+    }
+  ]
+}
