@@ -1,0 +1,26 @@
+{
+  "Name": "Ridgeside Ser, No Ser",
+  "Author": "MawDaSplatyBox2",
+  "Version": "0.2.0",
+  "Description": "Replaces the \"ser\" from Ridgeside Village's gender neutral dialogue. I HATE YOU PHILLIP I HATE YOU I HATE YOU I H",
+  "UniqueID": "MawDaSplatyBox2.NoSerRSV",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+        "UniqueID": "Rafseazz.RSVCP",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "Rafseazz.RidgesideVillage",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "Hana.GNMTokens",
+        "IsRequired": true,
+    }
+  ]
+}

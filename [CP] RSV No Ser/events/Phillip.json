@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Philip",
+			"Entries": 
+			{
+				"Introduction.GN": "{{i18n:NoSer.Philip.Dialogue.Introduction}}",
+        
+				"Mon.GN": "{{i18n:NoSer.Philip.Dialogue.Mon|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Tue.GN": "{{i18n:NoSer.Philip.Dialogue.Tue|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Wed.GN": "{{i18n:NoSer.Philip.Dialogue.Wed|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Thu.GN": "{{i18n:NoSer.Philip.Dialogue.Thu|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Sat.GN": "{{i18n:NoSer.Philip.Dialogue.Sat|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Sun.GN": "{{i18n:NoSer.Philip.Dialogue.Sun|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+        
+				"Mon6.GN": "{{i18n:NoSer.Philip.Dialogue.Mon6|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+        
+				"Fri8.GN": "{{i18n:NoSer.Philip.Dialogue.Fri8|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Fri8.dating.GN": "{{i18n:NoSer.Philip.Dialogue.Fri8.dating|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+			}
+		},
+    {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Philip",
+      "When": {
+          "ReplaceGenderedDialogue": true
+      },
+			"Entries": 
+			{
+				"Introduction": "{{i18n:NoSer.Philip.Dialogue.Introduction}}",
+        
+				"Mon": "{{i18n:NoSer.Philip.Dialogue.Mon|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Tue": "{{i18n:NoSer.Philip.Dialogue.Tue|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Wed": "{{i18n:NoSer.Philip.Dialogue.Wed|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Thu": "{{i18n:NoSer.Philip.Dialogue.Thu|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Sat": "{{i18n:NoSer.Philip.Dialogue.Sat|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Sun": "{{i18n:NoSer.Philip.Dialogue.Sun|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+        
+				"Mon6": "{{i18n:NoSer.Philip.Dialogue.Mon6|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+        
+				"Fri8": "{{i18n:NoSer.Philip.Dialogue.Fri8|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+				"Fri8.dating": "{{i18n:NoSer.Philip.Dialogue.Fri8.dating|PhillipFormalNoun={{lowercase:{{Random:{{PhillipFormalNoun}}}}}}}}",
+			}
+		}
+  ]
+}

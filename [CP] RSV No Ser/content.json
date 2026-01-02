@@ -1,0 +1,84 @@
+{
+  "Format": "2.2.0",
+  "ConfigSchema": {
+    "PhillipFormalNoun": {
+      "Default": "There",
+      "Description": "What Phillip uses in place of \"ser\" during gender neutral dialogue (e.g. \"hello there\", \"hello farmer\", \"hello stranger\", \"hello sir\", \"hello ma'am\"). Defaults to There.",
+    },
+    "YuumaFormalNoun": {
+      "Default": "Farmer",
+      "Description": "What Yuuma uses in place of \"ser\" during gender neutral dialogue (e.g. \"thank you farmer\", \"thank you stranger\", \"thank you sir\", \"thank you ma'am\"). Defaults to Farmer.",
+    },
+    "ReplaceGenderedDialogue": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Setting this to true will force this mod to replace non-gender-neutral variants of regular dialogue (events are unaffected by this setting). Set to false by default.",
+    },
+  },
+  "DynamicTokens": [
+    {
+      "Name": "PhillipDoubleThere",
+      "Value": ""
+    },
+    {
+      "Name": "PhillipDoubleThere",
+      "Value": ".DoubleThere",
+      "When": { "PhillipFormalNoun": "There" }
+    },
+    {
+      "Name": "PhillipDoubleThere",
+      "Value": ".DoubleThere",
+      "When": { "PhillipFormalNoun": "there" }
+    },
+    //GenderNeutral
+    //GenderNeutralSingular
+    //GNMTSubjectivePronoun
+    //GNMTObjectivePronoun
+    //GNMTPossessivePronoun
+    {
+      "Name": "GNMTTitle",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTTitle",
+      "Value": "{{Hana.GNMTokens/Title}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    //Adjective
+    //SpouseNoun
+    //GNMTGenericNoun
+    //GNMTAdultAntiquatedNoun
+    //GNMTAdultInformalNoun
+    //AdultFamilialNoun
+    //ElderAntiquatedNoun
+    //ElderFamilialNoun
+    //ElderInformalNoun
+    //ChildFamilialNoun
+    //ServiceFormalNoun
+    //TraderNoun
+    //ParentalNoun
+    //SiblingNoun
+    //GNMTTermOfEndearment
+
+  ],
+  "Changes": [
+    {
+      "LogName": "Torts Events No Ser",
+      "Action": "Include",
+      "FromFile": "events/Torts.json",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "LogName": "Yuuma Events No Ser",
+      "Action": "Include",
+      "FromFile": "events/Yuuma.json",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "LogName": "Phillip Dialogue Nop Ser",
+      "Action": "Include",
+      "FromFile": "events/Phillip.json",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    }
+  ]
+}
