@@ -3,7 +3,7 @@
   "Author": "MawDaSplatyBox2",
   "Version": "0.1.0",
   "Description": "Patches dialogue & events from Mr. Ginger with gender-neutral edits, using GNMTokens.",
-  "UniqueID": "MawDaSplatyBox2.MrGingerGNP",
+  "UniqueID": "MawDaSplatyBox2.Mr.GingerGNP",
   "MinimumApiVersion": "2.0",
   "UpdateKeys": [],
   "ContentPackFor": {
