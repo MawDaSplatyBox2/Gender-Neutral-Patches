@@ -1,0 +1,26 @@
+{
+  "Name": "Gender-Neutral Daulton and Maple Patch",
+  "Author": "MawDaSplatyBox2",
+  "Version": "0.1.0",
+  "Description": "Patches events from Daulton and Maple with gender-neutral edits, using GNMTokens.",
+  "UniqueID": "MawDaSplatyBox2.DaultonGNP",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+        "UniqueID": "bigsquishy97.Daulton",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "Hana.GNMTokens",
+        "IsRequired": false,
+    },
+    {
+        "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+        "IsRequired": false,
+    }
+  ]
+}

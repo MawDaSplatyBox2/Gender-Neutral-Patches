@@ -97,14 +97,14 @@
   ],
   "Changes": [
     {
-      "LogName": "AGE GN Dialogue",
+      "LogName": "{{ModId}} GN Dialogue",
       "Action": "Include",
-      "FromFile": "events/Dialogue.json"
+      "FromFile": "Assets/Dialogue.json"
     },
     {
-      "LogName": "AGE GN Events",
+      "LogName": "{{ModId}} GN Events",
       "Action": "Include",
-      "FromFile": "events/Events.json"
+      "FromFile": "Assets/Events.json"
     }
   ]
 }

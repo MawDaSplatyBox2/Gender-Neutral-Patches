@@ -29,19 +29,20 @@
     //GNMTTitle
     //GNMTAdjective
     //GMNTSpouseNoun
+    {
+      "Name": "GMNTSpouseNoun",
+      "Value": "Partner"
+    },
+    {
+      "Name": "GMNTSpouseNoun",
+      "Value": "{{Hana.GNMTokens/SpouseNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
     //GNMTGenericNoun
     //GNMTAdultAntiquatedNoun
     //GNMTAdultInformalNoun
     //GNMTAdultFamilialNoun
-    {
-      "Name": "GNMTElderAntiquatedNoun",
-      "Value": "false"
-    },
-    {
-      "Name": "GNMTElderAntiquatedNoun",
-      "Value": "{{Hana.GNMTokens/ElderAntiquatedNoun}}",
-      "When": { "HasMod": "Hana.GNMTokens" }
-    },
+    //GNMTElderAntiquatedNoun
     //GNMTElderFamilialNoun
     //GNMTElderInformalNoun
     //GNMTChildFamilialNoun
@@ -56,7 +57,7 @@
     {
       "LogName": "{{ModId}} GN Events",
       "Action": "Include",
-      "FromFile": "Data/Events.json"
+      "FromFile": "Assets/Events.json"
     }
   ]
 }

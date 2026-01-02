@@ -26,22 +26,22 @@
     //GNMTSubjectivePronoun
     //GNMTObjectivePronoun
     //GNMTPossessivePronoun
-    {
-      "Name": "GNMTTitle",
-      "Value": "oh"
-    },
-    {
-      "Name": "GNMTTitle",
-      "Value": "{{Hana.GNMTokens/Title}}",
-      "When": { "HasMod": "Hana.GNMTokens" }
-    },
+    //GNMTTitle
     //GNMTAdjective
     //GMNTSpouseNoun
     //GNMTGenericNoun
     //GNMTAdultAntiquatedNoun
     //GNMTAdultInformalNoun
     //GNMTAdultFamilialNoun
-    //GNMTElderAntiquatedNoun
+    {
+      "Name": "GNMTElderAntiquatedNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTElderAntiquatedNoun",
+      "Value": "{{Hana.GNMTokens/ElderAntiquatedNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
     //GNMTElderFamilialNoun
     //GNMTElderInformalNoun
     //GNMTChildFamilialNoun
@@ -54,9 +54,9 @@
   ],
   "Changes": [
     {
-      "LogName": "{{ModId}} GN Dialogue",
+      "LogName": "{{ModId}} GN Events",
       "Action": "Include",
-      "FromFile": "Assets/Dialogue.json"
+      "FromFile": "Assets/Events.json"
     }
   ]
 }
