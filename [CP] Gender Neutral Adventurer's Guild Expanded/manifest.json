@@ -2,7 +2,7 @@
   "Name": "Gender-Neutral AGE Patch",
   "Author": "MawDaSplatyBox2",
   "Version": "0.1.0",
-  "Description": "Patches dialogue and events from Adventurer's Guild Expanded with gender-neutral edits, using GNMTokens.",
+  "Description": "Patches dialogue and events from Adventurer's Guild Expanded with gender-neutral edits, using GNMTokens. Has additional support for Romanceable Rasmodia.",
   "UniqueID": "MawDaSplatyBox2.AGEGNP",
   "MinimumApiVersion": "2.0",
   "UpdateKeys": [],
